@@ -1,0 +1,33 @@
+# AI Study Coach — 100% free stack
+# pip install -r requirements.txt
+
+# PDF ingestion — free, offline
+pymupdf>=1.23.0
+
+# Local embeddings — free, offline (~80MB download on first run)
+sentence-transformers>=2.7.0
+
+# Vector store — free, persistent, local
+chromadb>=0.4.24
+
+# Free LLM API — sign up at groq.com (no credit card)
+groq>=0.4.0
+
+# Voice transcription — free, runs fully offline
+# Optional: install separately if you want voice input
+# pip install openai-whisper
+# Also requires ffmpeg: brew install ffmpeg (mac) or sudo apt install ffmpeg (linux)
+openai-whisper>=20231117
+
+# Persistent memory — replaces Redis, pure Python
+diskcache>=5.6.0
+
+# Web framework
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# UI
+streamlit>=1.32.0
+
+# Utilities
+pydantic>=2.0.0
